@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&family=Sriracha&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightcyan;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1{
+    font-size: 48px;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;      
+    background-color:lightseagreen;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h2{
+    background-color: lightcyan;
+    padding: 20px;
+    text-align: center;
+}
+h2 input {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    background-color: lightcyan;
+    font-size: 18px;
+    padding: 6px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.add{
+    background-color: lightcyan;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black
+}
+
+ol,li{
+    background-color: lightpink;
+}
+
+li {
+    padding: 20px;
+    margin-left:39%;
+    font-size: 22px;
+}
+button{
+    margin-left: 20px; 
+    padding: 7px;
+    font-size: 15px; 
+    border-radius: 6px; 
+    outline: none; 
+    border:2px solid black;
+}
+button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+p{
+    padding: 8px;
+    background-color: lightslategray;
+    text-align: center;
+}
